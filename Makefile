@@ -1,6 +1,6 @@
 .PHONY: gen apk ncommit dep
 
-VERSION = v0.0.1
+VERSION = v0.0.2
 
 gen:
 	flutter pub run build_runner build --delete-conflicting-outputs

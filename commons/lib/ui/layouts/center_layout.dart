@@ -1,6 +1,6 @@
 import 'package:commons/ui/padding.dart';
-import 'package:commons/ui/views/layouts/base_layout.dart';
-import 'package:commons/ui/views/layouts/layout_data.dart';
+import 'package:commons/ui/layouts/base_layout.dart';
+import 'package:commons/ui/layouts/layout_data.dart';
 import 'package:flutter/material.dart';
 
 class CenterLayout extends StatelessWidget {

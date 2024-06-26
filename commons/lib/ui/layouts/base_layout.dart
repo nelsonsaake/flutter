@@ -1,6 +1,6 @@
 import 'package:commons/ui/height_values.dart';
 import 'package:commons/ui/width_values.dart';
-import 'package:commons/ui/views/layouts/layout_data.dart';
+import 'package:commons/ui/layouts/layout_data.dart';
 import 'package:commons/ui/widgets/busy_indicator/busy_indicator.dart';
 import 'package:flutter/material.dart';
 
