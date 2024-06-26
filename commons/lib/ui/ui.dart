@@ -11,7 +11,6 @@ export "radius.dart";
 export "rounded_rectangle_border.dart";
 export "shadow.dart";
 export "size.dart";
-export "string_values.dart";
 export "text.dart";
 export "text_colors.dart";
 export "text_font_families.dart";
