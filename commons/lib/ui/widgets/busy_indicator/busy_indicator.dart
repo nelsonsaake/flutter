@@ -1,5 +1,5 @@
 import 'package:commons/ui/padding.dart';
-import 'package:commons/ui/theme/theme.dart';
+import 'package:commons/ui/theme/reference.dart';
 import 'package:flutter/material.dart';
 
 class BusyIndicator extends StatelessWidget {

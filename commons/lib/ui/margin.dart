@@ -41,33 +41,3 @@ EdgeInsetsMargin mr(double v) {
 EdgeInsetsMargin mltrb(double l, double t, double r, double b) {
   return EdgeInsetsMargin.fromLTRB(l, t, r, b);
 }
-
-//---
-
-extension EdgeInsetsMarginExt on EdgeInsetsMargin {
-  //...
-
-  EdgeInsetsMargin x(double v) {
-    return copyWith(right: v, left: v);
-  }
-
-  EdgeInsetsMargin y(double v) {
-    return copyWith(top: v, bottom: v);
-  }
-
-  EdgeInsetsMargin t(double v) {
-    return copyWith(top: v);
-  }
-
-  EdgeInsetsMargin b(double v) {
-    return copyWith(bottom: v);
-  }
-
-  EdgeInsetsMargin l(double v) {
-    return copyWith(left: v);
-  }
-
-  EdgeInsetsMargin r(double v) {
-    return copyWith(right: v);
-  }
-}

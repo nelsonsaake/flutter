@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 const kcPrimary = kcRed800;
 
-final theme = ThemeData(
+final referenceTheme = ThemeData(
   //...
 
   useMaterial3: true,

@@ -41,33 +41,3 @@ EdgeInsetsPadding pr(double v) {
 EdgeInsetsPadding pltrb(double l, double t, double r, double b) {
   return EdgeInsetsPadding.fromLTRB(l, t, r, b);
 }
-
-//---
-
-extension EdgeInsetsPaddingExt on EdgeInsetsPadding {
-  //...
-
-  EdgeInsetsPadding x(double v) {
-    return copyWith(right: v, left: v);
-  }
-
-  EdgeInsetsPadding y(double v) {
-    return copyWith(top: v, bottom: v);
-  }
-
-  EdgeInsetsPadding t(double v) {
-    return copyWith(top: v);
-  }
-
-  EdgeInsetsPadding b(double v) {
-    return copyWith(bottom: v);
-  }
-
-  EdgeInsetsPadding l(double v) {
-    return copyWith(left: v);
-  }
-
-  EdgeInsetsPadding r(double v) {
-    return copyWith(right: v);
-  }
-}
