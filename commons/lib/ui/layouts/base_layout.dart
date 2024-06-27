@@ -27,29 +27,32 @@ class BaseLayout extends StatelessWidget {
         children: [
           //...
 
-          SafeArea(child: Builder(
-            builder: (context) {
-              if (useScroll) {
-                return ListView(
-                  padding: padding,
-                  children: children,
-                );
-              }
-              if (children.length == 1) {
-                return Container(
-                  padding: padding,
-                  child: children[0],
-                );
-              } else {
-                return Container(
-                  padding: padding,
-                  child: Column(
+          SafeArea(
+            child: Builder(
+              builder: (context) {
+                if (useScroll) {
+                  return ListView(
+                    padding: padding,
                     children: children,
-                  ),
-                );
-              }
-            },
-          )),
+                  );
+                }
+                if (children.length == 1) {
+                  return Container(
+                    padding: padding,
+                    child: children[0],
+                  );
+                } else {
+                  return Container(
+                    padding: padding,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: children,
+                    ),
+                  );
+                }
+              },
+            ),
+          ),
 
           if (isBusy)
             const Positioned(
