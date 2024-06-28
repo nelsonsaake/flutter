@@ -1,22 +1,22 @@
 import 'package:commons/ui/colors_values.dart';
 import 'package:flutter/material.dart';
 
-const kcPrimary = kcRed800;
+Color commonsConfigPrimary = kcRed800;
 
-final referenceTheme = ThemeData(
-  //...
+get referenceTheme => ThemeData(
+      //...
 
-  useMaterial3: true,
+      useMaterial3: true,
 
-  primaryColor: kcPrimary,
+      primaryColor: commonsConfigPrimary,
 
-  buttonTheme: ButtonThemeData(
-    colorScheme: ColorScheme.fromSeed(
-      seedColor: kcPrimary,
-    ),
-  ),
+      buttonTheme: ButtonThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: commonsConfigPrimary,
+        ),
+      ),
 
-  progressIndicatorTheme: const ProgressIndicatorThemeData(
-    color: kcSlate800,
-  ),
-);
+      progressIndicatorTheme: const ProgressIndicatorThemeData(
+        color: kcSlate800,
+      ),
+    );

@@ -3,11 +3,11 @@ import 'package:commons/ui/theme/reference.dart';
 import 'package:flutter/material.dart';
 
 class BusyIndicator extends StatelessWidget {
-  final Color color;
+  final Color? color;
 
   const BusyIndicator({
     super.key,
-    this.color = kcPrimary,
+    this.color,
   });
 
   @override
@@ -18,7 +18,7 @@ class BusyIndicator extends StatelessWidget {
         child: SizedBox.square(
           dimension: 16,
           child: CircularProgressIndicator(
-            color: color,
+            color: color ?? commonsConfigPrimary,
             strokeWidth: 2,
           ),
         ),

@@ -1,20 +1,20 @@
 import 'package:commons/ui/colors_values.dart';
 import 'package:flutter/material.dart';
 
-const kdBorderWidth = 1.0;
-const kcBorderColor = kcStone700;
+double commonsConfigBorderWith = 1.0;
+Color commonsConfigBorderColor = kcStone700;
 
 BorderSide bs({Color? color, double? width}) {
   return BorderSide(
-    width: width ?? kdBorderWidth,
-    color: color ?? kcBorderColor,
+    width: width ?? commonsConfigBorderWith,
+    color: color ?? commonsConfigBorderColor,
   );
 }
 
 Border b({Color? color, double? width}) {
   return Border.all(
-    width: width ?? kdBorderWidth,
-    color: color ?? kcBorderColor,
+    width: width ?? commonsConfigBorderWith,
+    color: color ?? commonsConfigBorderColor,
   );
 }
 

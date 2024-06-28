@@ -13,7 +13,7 @@ import 'package:flutter/material.dart';
 class Button extends StatelessWidget {
   final String text;
   final Color textColor;
-  final Color backgroundColor;
+  final Color? backgroundColor;
   final bool setBorder;
   final VoidCallback? onTap;
   final bool isBusy;
@@ -24,7 +24,7 @@ class Button extends StatelessWidget {
   const Button(
     this.text, {
     super.key,
-    this.backgroundColor = kcPrimary,
+    this.backgroundColor,
     this.textColor = Colors.white,
     this.setBorder = false,
     this.onTap,
@@ -47,10 +47,10 @@ class Button extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         padding: pxy(26, 5),
         shape: rrb(borderRadius),
-        shadowColor: kcShadowColor,
+        shadowColor: commonsConfigShadowColor,
         minimumSize: s(width, height),
-        backgroundColor: backgroundColor,
-        side: setBorder ? bs(color: kcPrimary, width: 1) : null,
+        backgroundColor: backgroundColor ?? commonsConfigPrimary,
+        side: setBorder ? bs(color: commonsConfigPrimary, width: 1) : null,
       ),
       child: isBusy
           ? const BusyIndicator()

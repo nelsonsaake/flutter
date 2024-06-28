@@ -1,13 +1,13 @@
 import 'package:commons/ui/colors_values.dart';
 import 'package:flutter/material.dart';
 
-const kcShadowColor = kcStone400;
+Color commonsConfigShadowColor = kcStone400;
 
 List<BoxShadow> shadow() {
   return [
-    const BoxShadow(
+    BoxShadow(
       blurRadius: 3,
-      color: kcShadowColor,
+      color: commonsConfigShadowColor,
       offset: const Offset(1.3, 1.3),
     ),
   ];
