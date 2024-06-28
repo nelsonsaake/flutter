@@ -18,7 +18,7 @@ Border b({Color? color, double? width}) {
   );
 }
 
-final kb = b();
+Border get kb => b();
 
 extension BorderExt on Border {
   //...
