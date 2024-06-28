@@ -19,7 +19,7 @@ EdgeInsetsMargin mb0() => mb(0);
 EdgeInsetsMargin ml0() => ml(0);
 
 /// mr0 => margin right = 0px
-EdgeInsetsMargin mr0() => mt(0);
+EdgeInsetsMargin mr0() => mr(0);
 
 /// m0a => margin = 2px
 EdgeInsetsMargin m0a() => m(2);
@@ -40,7 +40,7 @@ EdgeInsetsMargin mb0a() => mb(2);
 EdgeInsetsMargin ml0a() => ml(2);
 
 /// mr0a => margin right = 2px
-EdgeInsetsMargin mr0a() => mt(2);
+EdgeInsetsMargin mr0a() => mr(2);
 
 /// m1 => margin = 4px
 EdgeInsetsMargin m1() => m(4);
@@ -61,7 +61,7 @@ EdgeInsetsMargin mb1() => mb(4);
 EdgeInsetsMargin ml1() => ml(4);
 
 /// mr1 => margin right = 4px
-EdgeInsetsMargin mr1() => mt(4);
+EdgeInsetsMargin mr1() => mr(4);
 
 /// m1a => margin = 6px
 EdgeInsetsMargin m1a() => m(6);
@@ -82,7 +82,7 @@ EdgeInsetsMargin mb1a() => mb(6);
 EdgeInsetsMargin ml1a() => ml(6);
 
 /// mr1a => margin right = 6px
-EdgeInsetsMargin mr1a() => mt(6);
+EdgeInsetsMargin mr1a() => mr(6);
 
 /// m2 => margin = 8px
 EdgeInsetsMargin m2() => m(8);
@@ -103,7 +103,7 @@ EdgeInsetsMargin mb2() => mb(8);
 EdgeInsetsMargin ml2() => ml(8);
 
 /// mr2 => margin right = 8px
-EdgeInsetsMargin mr2() => mt(8);
+EdgeInsetsMargin mr2() => mr(8);
 
 /// m2a => margin = 10px
 EdgeInsetsMargin m2a() => m(10);
@@ -124,7 +124,7 @@ EdgeInsetsMargin mb2a() => mb(10);
 EdgeInsetsMargin ml2a() => ml(10);
 
 /// mr2a => margin right = 10px
-EdgeInsetsMargin mr2a() => mt(10);
+EdgeInsetsMargin mr2a() => mr(10);
 
 /// m3 => margin = 12px
 EdgeInsetsMargin m3() => m(12);
@@ -145,7 +145,7 @@ EdgeInsetsMargin mb3() => mb(12);
 EdgeInsetsMargin ml3() => ml(12);
 
 /// mr3 => margin right = 12px
-EdgeInsetsMargin mr3() => mt(12);
+EdgeInsetsMargin mr3() => mr(12);
 
 /// m3a => margin = 14px
 EdgeInsetsMargin m3a() => m(14);
@@ -166,7 +166,7 @@ EdgeInsetsMargin mb3a() => mb(14);
 EdgeInsetsMargin ml3a() => ml(14);
 
 /// mr3a => margin right = 14px
-EdgeInsetsMargin mr3a() => mt(14);
+EdgeInsetsMargin mr3a() => mr(14);
 
 /// m4 => margin = 16px
 EdgeInsetsMargin m4() => m(16);
@@ -187,7 +187,7 @@ EdgeInsetsMargin mb4() => mb(16);
 EdgeInsetsMargin ml4() => ml(16);
 
 /// mr4 => margin right = 16px
-EdgeInsetsMargin mr4() => mt(16);
+EdgeInsetsMargin mr4() => mr(16);
 
 /// m5 => margin = 20px
 EdgeInsetsMargin m5() => m(20);
@@ -208,7 +208,7 @@ EdgeInsetsMargin mb5() => mb(20);
 EdgeInsetsMargin ml5() => ml(20);
 
 /// mr5 => margin right = 20px
-EdgeInsetsMargin mr5() => mt(20);
+EdgeInsetsMargin mr5() => mr(20);
 
 /// m6 => margin = 24px
 EdgeInsetsMargin m6() => m(24);
@@ -229,7 +229,7 @@ EdgeInsetsMargin mb6() => mb(24);
 EdgeInsetsMargin ml6() => ml(24);
 
 /// mr6 => margin right = 24px
-EdgeInsetsMargin mr6() => mt(24);
+EdgeInsetsMargin mr6() => mr(24);
 
 /// m7 => margin = 28px
 EdgeInsetsMargin m7() => m(28);
@@ -250,7 +250,7 @@ EdgeInsetsMargin mb7() => mb(28);
 EdgeInsetsMargin ml7() => ml(28);
 
 /// mr7 => margin right = 28px
-EdgeInsetsMargin mr7() => mt(28);
+EdgeInsetsMargin mr7() => mr(28);
 
 /// m8 => margin = 32px
 EdgeInsetsMargin m8() => m(32);
@@ -271,7 +271,7 @@ EdgeInsetsMargin mb8() => mb(32);
 EdgeInsetsMargin ml8() => ml(32);
 
 /// mr8 => margin right = 32px
-EdgeInsetsMargin mr8() => mt(32);
+EdgeInsetsMargin mr8() => mr(32);
 
 /// m9 => margin = 36px
 EdgeInsetsMargin m9() => m(36);
@@ -292,7 +292,7 @@ EdgeInsetsMargin mb9() => mb(36);
 EdgeInsetsMargin ml9() => ml(36);
 
 /// mr9 => margin right = 36px
-EdgeInsetsMargin mr9() => mt(36);
+EdgeInsetsMargin mr9() => mr(36);
 
 /// m10 => margin = 40px
 EdgeInsetsMargin m10() => m(40);
@@ -313,7 +313,7 @@ EdgeInsetsMargin mb10() => mb(40);
 EdgeInsetsMargin ml10() => ml(40);
 
 /// mr10 => margin right = 40px
-EdgeInsetsMargin mr10() => mt(40);
+EdgeInsetsMargin mr10() => mr(40);
 
 /// m11 => margin = 44px
 EdgeInsetsMargin m11() => m(44);
@@ -334,7 +334,7 @@ EdgeInsetsMargin mb11() => mb(44);
 EdgeInsetsMargin ml11() => ml(44);
 
 /// mr11 => margin right = 44px
-EdgeInsetsMargin mr11() => mt(44);
+EdgeInsetsMargin mr11() => mr(44);
 
 /// m12 => margin = 48px
 EdgeInsetsMargin m12() => m(48);
@@ -355,7 +355,7 @@ EdgeInsetsMargin mb12() => mb(48);
 EdgeInsetsMargin ml12() => ml(48);
 
 /// mr12 => margin right = 48px
-EdgeInsetsMargin mr12() => mt(48);
+EdgeInsetsMargin mr12() => mr(48);
 
 /// m14 => margin = 56px
 EdgeInsetsMargin m14() => m(56);
@@ -376,7 +376,7 @@ EdgeInsetsMargin mb14() => mb(56);
 EdgeInsetsMargin ml14() => ml(56);
 
 /// mr14 => margin right = 56px
-EdgeInsetsMargin mr14() => mt(56);
+EdgeInsetsMargin mr14() => mr(56);
 
 /// m16 => margin = 64px
 EdgeInsetsMargin m16() => m(64);
@@ -397,7 +397,7 @@ EdgeInsetsMargin mb16() => mb(64);
 EdgeInsetsMargin ml16() => ml(64);
 
 /// mr16 => margin right = 64px
-EdgeInsetsMargin mr16() => mt(64);
+EdgeInsetsMargin mr16() => mr(64);
 
 /// m20 => margin = 80px
 EdgeInsetsMargin m20() => m(80);
@@ -418,7 +418,7 @@ EdgeInsetsMargin mb20() => mb(80);
 EdgeInsetsMargin ml20() => ml(80);
 
 /// mr20 => margin right = 80px
-EdgeInsetsMargin mr20() => mt(80);
+EdgeInsetsMargin mr20() => mr(80);
 
 /// m24 => margin = 96px
 EdgeInsetsMargin m24() => m(96);
@@ -439,7 +439,7 @@ EdgeInsetsMargin mb24() => mb(96);
 EdgeInsetsMargin ml24() => ml(96);
 
 /// mr24 => margin right = 96px
-EdgeInsetsMargin mr24() => mt(96);
+EdgeInsetsMargin mr24() => mr(96);
 
 /// m28 => margin = 112px
 EdgeInsetsMargin m28() => m(112);
@@ -460,7 +460,7 @@ EdgeInsetsMargin mb28() => mb(112);
 EdgeInsetsMargin ml28() => ml(112);
 
 /// mr28 => margin right = 112px
-EdgeInsetsMargin mr28() => mt(112);
+EdgeInsetsMargin mr28() => mr(112);
 
 /// m32 => margin = 128px
 EdgeInsetsMargin m32() => m(128);
@@ -481,7 +481,7 @@ EdgeInsetsMargin mb32() => mb(128);
 EdgeInsetsMargin ml32() => ml(128);
 
 /// mr32 => margin right = 128px
-EdgeInsetsMargin mr32() => mt(128);
+EdgeInsetsMargin mr32() => mr(128);
 
 /// m36 => margin = 144px
 EdgeInsetsMargin m36() => m(144);
@@ -502,7 +502,7 @@ EdgeInsetsMargin mb36() => mb(144);
 EdgeInsetsMargin ml36() => ml(144);
 
 /// mr36 => margin right = 144px
-EdgeInsetsMargin mr36() => mt(144);
+EdgeInsetsMargin mr36() => mr(144);
 
 /// m40 => margin = 160px
 EdgeInsetsMargin m40() => m(160);
@@ -523,7 +523,7 @@ EdgeInsetsMargin mb40() => mb(160);
 EdgeInsetsMargin ml40() => ml(160);
 
 /// mr40 => margin right = 160px
-EdgeInsetsMargin mr40() => mt(160);
+EdgeInsetsMargin mr40() => mr(160);
 
 /// m44 => margin = 176px
 EdgeInsetsMargin m44() => m(176);
@@ -544,7 +544,7 @@ EdgeInsetsMargin mb44() => mb(176);
 EdgeInsetsMargin ml44() => ml(176);
 
 /// mr44 => margin right = 176px
-EdgeInsetsMargin mr44() => mt(176);
+EdgeInsetsMargin mr44() => mr(176);
 
 /// m48 => margin = 192px
 EdgeInsetsMargin m48() => m(192);
@@ -565,7 +565,7 @@ EdgeInsetsMargin mb48() => mb(192);
 EdgeInsetsMargin ml48() => ml(192);
 
 /// mr48 => margin right = 192px
-EdgeInsetsMargin mr48() => mt(192);
+EdgeInsetsMargin mr48() => mr(192);
 
 /// m52 => margin = 208px
 EdgeInsetsMargin m52() => m(208);
@@ -586,7 +586,7 @@ EdgeInsetsMargin mb52() => mb(208);
 EdgeInsetsMargin ml52() => ml(208);
 
 /// mr52 => margin right = 208px
-EdgeInsetsMargin mr52() => mt(208);
+EdgeInsetsMargin mr52() => mr(208);
 
 /// m56 => margin = 224px
 EdgeInsetsMargin m56() => m(224);
@@ -607,7 +607,7 @@ EdgeInsetsMargin mb56() => mb(224);
 EdgeInsetsMargin ml56() => ml(224);
 
 /// mr56 => margin right = 224px
-EdgeInsetsMargin mr56() => mt(224);
+EdgeInsetsMargin mr56() => mr(224);
 
 /// m60 => margin = 240px
 EdgeInsetsMargin m60() => m(240);
@@ -628,7 +628,7 @@ EdgeInsetsMargin mb60() => mb(240);
 EdgeInsetsMargin ml60() => ml(240);
 
 /// mr60 => margin right = 240px
-EdgeInsetsMargin mr60() => mt(240);
+EdgeInsetsMargin mr60() => mr(240);
 
 /// m64 => margin = 256px
 EdgeInsetsMargin m64() => m(256);
@@ -649,7 +649,7 @@ EdgeInsetsMargin mb64() => mb(256);
 EdgeInsetsMargin ml64() => ml(256);
 
 /// mr64 => margin right = 256px
-EdgeInsetsMargin mr64() => mt(256);
+EdgeInsetsMargin mr64() => mr(256);
 
 /// m72 => margin = 288px
 EdgeInsetsMargin m72() => m(288);
@@ -670,7 +670,7 @@ EdgeInsetsMargin mb72() => mb(288);
 EdgeInsetsMargin ml72() => ml(288);
 
 /// mr72 => margin right = 288px
-EdgeInsetsMargin mr72() => mt(288);
+EdgeInsetsMargin mr72() => mr(288);
 
 /// m80 => margin = 320px
 EdgeInsetsMargin m80() => m(320);
@@ -691,7 +691,7 @@ EdgeInsetsMargin mb80() => mb(320);
 EdgeInsetsMargin ml80() => ml(320);
 
 /// mr80 => margin right = 320px
-EdgeInsetsMargin mr80() => mt(320);
+EdgeInsetsMargin mr80() => mr(320);
 
 /// m96 => margin = 384px
 EdgeInsetsMargin m96() => m(384);
@@ -712,28 +712,7 @@ EdgeInsetsMargin mb96() => mb(384);
 EdgeInsetsMargin ml96() => ml(384);
 
 /// mr96 => margin right = 384px
-EdgeInsetsMargin mr96() => mt(384);
-
-/// mXL => margin = 24px
-EdgeInsetsMargin mXL() => m(24);
-
-/// mxXL => margin left, right = 24px
-EdgeInsetsMargin mxXL() => mx(24);
-
-/// myXL => margin top, right = 24px
-EdgeInsetsMargin myXL() => my(24);
-
-/// mtXL => margin top = 24px
-EdgeInsetsMargin mtXL() => mt(24);
-
-/// mbXL => margin bottom = 24px
-EdgeInsetsMargin mbXL() => mb(24);
-
-/// mlXL => margin left = 24px
-EdgeInsetsMargin mlXL() => ml(24);
-
-/// mrXL => margin right = 24px
-EdgeInsetsMargin mrXL() => mt(24);
+EdgeInsetsMargin mr96() => mr(384);
 
 /// mSM => margin = 8px
 EdgeInsetsMargin mSM() => m(8);
@@ -754,7 +733,7 @@ EdgeInsetsMargin mbSM() => mb(8);
 EdgeInsetsMargin mlSM() => ml(8);
 
 /// mrSM => margin right = 8px
-EdgeInsetsMargin mrSM() => mt(8);
+EdgeInsetsMargin mrSM() => mr(8);
 
 /// mMD => margin = 12px
 EdgeInsetsMargin mMD() => m(12);
@@ -775,7 +754,7 @@ EdgeInsetsMargin mbMD() => mb(12);
 EdgeInsetsMargin mlMD() => ml(12);
 
 /// mrMD => margin right = 12px
-EdgeInsetsMargin mrMD() => mt(12);
+EdgeInsetsMargin mrMD() => mr(12);
 
 /// mLG => margin = 16px
 EdgeInsetsMargin mLG() => m(16);
@@ -796,4 +775,25 @@ EdgeInsetsMargin mbLG() => mb(16);
 EdgeInsetsMargin mlLG() => ml(16);
 
 /// mrLG => margin right = 16px
-EdgeInsetsMargin mrLG() => mt(16);
+EdgeInsetsMargin mrLG() => mr(16);
+
+/// mXL => margin = 24px
+EdgeInsetsMargin mXL() => m(24);
+
+/// mxXL => margin left, right = 24px
+EdgeInsetsMargin mxXL() => mx(24);
+
+/// myXL => margin top, right = 24px
+EdgeInsetsMargin myXL() => my(24);
+
+/// mtXL => margin top = 24px
+EdgeInsetsMargin mtXL() => mt(24);
+
+/// mbXL => margin bottom = 24px
+EdgeInsetsMargin mbXL() => mb(24);
+
+/// mlXL => margin left = 24px
+EdgeInsetsMargin mlXL() => ml(24);
+
+/// mrXL => margin right = 24px
+EdgeInsetsMargin mrXL() => mr(24);

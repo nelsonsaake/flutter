@@ -19,7 +19,7 @@ EdgeInsetsPadding kpb0 = pb(0);
 EdgeInsetsPadding kpl0 = pl(0);
 
 /// kpr0 => padding right = 0px
-EdgeInsetsPadding kpr0 = pt(0);
+EdgeInsetsPadding kpr0 = pr(0);
 
 /// kp0a => padding = 2px
 EdgeInsetsPadding kp0a = p(2);
@@ -40,7 +40,7 @@ EdgeInsetsPadding kpb0a = pb(2);
 EdgeInsetsPadding kpl0a = pl(2);
 
 /// kpr0a => padding right = 2px
-EdgeInsetsPadding kpr0a = pt(2);
+EdgeInsetsPadding kpr0a = pr(2);
 
 /// kp1 => padding = 4px
 EdgeInsetsPadding kp1 = p(4);
@@ -61,7 +61,7 @@ EdgeInsetsPadding kpb1 = pb(4);
 EdgeInsetsPadding kpl1 = pl(4);
 
 /// kpr1 => padding right = 4px
-EdgeInsetsPadding kpr1 = pt(4);
+EdgeInsetsPadding kpr1 = pr(4);
 
 /// kp1a => padding = 6px
 EdgeInsetsPadding kp1a = p(6);
@@ -82,7 +82,7 @@ EdgeInsetsPadding kpb1a = pb(6);
 EdgeInsetsPadding kpl1a = pl(6);
 
 /// kpr1a => padding right = 6px
-EdgeInsetsPadding kpr1a = pt(6);
+EdgeInsetsPadding kpr1a = pr(6);
 
 /// kp2 => padding = 8px
 EdgeInsetsPadding kp2 = p(8);
@@ -103,7 +103,7 @@ EdgeInsetsPadding kpb2 = pb(8);
 EdgeInsetsPadding kpl2 = pl(8);
 
 /// kpr2 => padding right = 8px
-EdgeInsetsPadding kpr2 = pt(8);
+EdgeInsetsPadding kpr2 = pr(8);
 
 /// kp2a => padding = 10px
 EdgeInsetsPadding kp2a = p(10);
@@ -124,7 +124,7 @@ EdgeInsetsPadding kpb2a = pb(10);
 EdgeInsetsPadding kpl2a = pl(10);
 
 /// kpr2a => padding right = 10px
-EdgeInsetsPadding kpr2a = pt(10);
+EdgeInsetsPadding kpr2a = pr(10);
 
 /// kp3 => padding = 12px
 EdgeInsetsPadding kp3 = p(12);
@@ -145,7 +145,7 @@ EdgeInsetsPadding kpb3 = pb(12);
 EdgeInsetsPadding kpl3 = pl(12);
 
 /// kpr3 => padding right = 12px
-EdgeInsetsPadding kpr3 = pt(12);
+EdgeInsetsPadding kpr3 = pr(12);
 
 /// kp3a => padding = 14px
 EdgeInsetsPadding kp3a = p(14);
@@ -166,7 +166,7 @@ EdgeInsetsPadding kpb3a = pb(14);
 EdgeInsetsPadding kpl3a = pl(14);
 
 /// kpr3a => padding right = 14px
-EdgeInsetsPadding kpr3a = pt(14);
+EdgeInsetsPadding kpr3a = pr(14);
 
 /// kp4 => padding = 16px
 EdgeInsetsPadding kp4 = p(16);
@@ -187,7 +187,7 @@ EdgeInsetsPadding kpb4 = pb(16);
 EdgeInsetsPadding kpl4 = pl(16);
 
 /// kpr4 => padding right = 16px
-EdgeInsetsPadding kpr4 = pt(16);
+EdgeInsetsPadding kpr4 = pr(16);
 
 /// kp5 => padding = 20px
 EdgeInsetsPadding kp5 = p(20);
@@ -208,7 +208,7 @@ EdgeInsetsPadding kpb5 = pb(20);
 EdgeInsetsPadding kpl5 = pl(20);
 
 /// kpr5 => padding right = 20px
-EdgeInsetsPadding kpr5 = pt(20);
+EdgeInsetsPadding kpr5 = pr(20);
 
 /// kp6 => padding = 24px
 EdgeInsetsPadding kp6 = p(24);
@@ -229,7 +229,7 @@ EdgeInsetsPadding kpb6 = pb(24);
 EdgeInsetsPadding kpl6 = pl(24);
 
 /// kpr6 => padding right = 24px
-EdgeInsetsPadding kpr6 = pt(24);
+EdgeInsetsPadding kpr6 = pr(24);
 
 /// kp7 => padding = 28px
 EdgeInsetsPadding kp7 = p(28);
@@ -250,7 +250,7 @@ EdgeInsetsPadding kpb7 = pb(28);
 EdgeInsetsPadding kpl7 = pl(28);
 
 /// kpr7 => padding right = 28px
-EdgeInsetsPadding kpr7 = pt(28);
+EdgeInsetsPadding kpr7 = pr(28);
 
 /// kp8 => padding = 32px
 EdgeInsetsPadding kp8 = p(32);
@@ -271,7 +271,7 @@ EdgeInsetsPadding kpb8 = pb(32);
 EdgeInsetsPadding kpl8 = pl(32);
 
 /// kpr8 => padding right = 32px
-EdgeInsetsPadding kpr8 = pt(32);
+EdgeInsetsPadding kpr8 = pr(32);
 
 /// kp9 => padding = 36px
 EdgeInsetsPadding kp9 = p(36);
@@ -292,7 +292,7 @@ EdgeInsetsPadding kpb9 = pb(36);
 EdgeInsetsPadding kpl9 = pl(36);
 
 /// kpr9 => padding right = 36px
-EdgeInsetsPadding kpr9 = pt(36);
+EdgeInsetsPadding kpr9 = pr(36);
 
 /// kp10 => padding = 40px
 EdgeInsetsPadding kp10 = p(40);
@@ -313,7 +313,7 @@ EdgeInsetsPadding kpb10 = pb(40);
 EdgeInsetsPadding kpl10 = pl(40);
 
 /// kpr10 => padding right = 40px
-EdgeInsetsPadding kpr10 = pt(40);
+EdgeInsetsPadding kpr10 = pr(40);
 
 /// kp11 => padding = 44px
 EdgeInsetsPadding kp11 = p(44);
@@ -334,7 +334,7 @@ EdgeInsetsPadding kpb11 = pb(44);
 EdgeInsetsPadding kpl11 = pl(44);
 
 /// kpr11 => padding right = 44px
-EdgeInsetsPadding kpr11 = pt(44);
+EdgeInsetsPadding kpr11 = pr(44);
 
 /// kp12 => padding = 48px
 EdgeInsetsPadding kp12 = p(48);
@@ -355,7 +355,7 @@ EdgeInsetsPadding kpb12 = pb(48);
 EdgeInsetsPadding kpl12 = pl(48);
 
 /// kpr12 => padding right = 48px
-EdgeInsetsPadding kpr12 = pt(48);
+EdgeInsetsPadding kpr12 = pr(48);
 
 /// kp14 => padding = 56px
 EdgeInsetsPadding kp14 = p(56);
@@ -376,7 +376,7 @@ EdgeInsetsPadding kpb14 = pb(56);
 EdgeInsetsPadding kpl14 = pl(56);
 
 /// kpr14 => padding right = 56px
-EdgeInsetsPadding kpr14 = pt(56);
+EdgeInsetsPadding kpr14 = pr(56);
 
 /// kp16 => padding = 64px
 EdgeInsetsPadding kp16 = p(64);
@@ -397,7 +397,7 @@ EdgeInsetsPadding kpb16 = pb(64);
 EdgeInsetsPadding kpl16 = pl(64);
 
 /// kpr16 => padding right = 64px
-EdgeInsetsPadding kpr16 = pt(64);
+EdgeInsetsPadding kpr16 = pr(64);
 
 /// kp20 => padding = 80px
 EdgeInsetsPadding kp20 = p(80);
@@ -418,7 +418,7 @@ EdgeInsetsPadding kpb20 = pb(80);
 EdgeInsetsPadding kpl20 = pl(80);
 
 /// kpr20 => padding right = 80px
-EdgeInsetsPadding kpr20 = pt(80);
+EdgeInsetsPadding kpr20 = pr(80);
 
 /// kp24 => padding = 96px
 EdgeInsetsPadding kp24 = p(96);
@@ -439,7 +439,7 @@ EdgeInsetsPadding kpb24 = pb(96);
 EdgeInsetsPadding kpl24 = pl(96);
 
 /// kpr24 => padding right = 96px
-EdgeInsetsPadding kpr24 = pt(96);
+EdgeInsetsPadding kpr24 = pr(96);
 
 /// kp28 => padding = 112px
 EdgeInsetsPadding kp28 = p(112);
@@ -460,7 +460,7 @@ EdgeInsetsPadding kpb28 = pb(112);
 EdgeInsetsPadding kpl28 = pl(112);
 
 /// kpr28 => padding right = 112px
-EdgeInsetsPadding kpr28 = pt(112);
+EdgeInsetsPadding kpr28 = pr(112);
 
 /// kp32 => padding = 128px
 EdgeInsetsPadding kp32 = p(128);
@@ -481,7 +481,7 @@ EdgeInsetsPadding kpb32 = pb(128);
 EdgeInsetsPadding kpl32 = pl(128);
 
 /// kpr32 => padding right = 128px
-EdgeInsetsPadding kpr32 = pt(128);
+EdgeInsetsPadding kpr32 = pr(128);
 
 /// kp36 => padding = 144px
 EdgeInsetsPadding kp36 = p(144);
@@ -502,7 +502,7 @@ EdgeInsetsPadding kpb36 = pb(144);
 EdgeInsetsPadding kpl36 = pl(144);
 
 /// kpr36 => padding right = 144px
-EdgeInsetsPadding kpr36 = pt(144);
+EdgeInsetsPadding kpr36 = pr(144);
 
 /// kp40 => padding = 160px
 EdgeInsetsPadding kp40 = p(160);
@@ -523,7 +523,7 @@ EdgeInsetsPadding kpb40 = pb(160);
 EdgeInsetsPadding kpl40 = pl(160);
 
 /// kpr40 => padding right = 160px
-EdgeInsetsPadding kpr40 = pt(160);
+EdgeInsetsPadding kpr40 = pr(160);
 
 /// kp44 => padding = 176px
 EdgeInsetsPadding kp44 = p(176);
@@ -544,7 +544,7 @@ EdgeInsetsPadding kpb44 = pb(176);
 EdgeInsetsPadding kpl44 = pl(176);
 
 /// kpr44 => padding right = 176px
-EdgeInsetsPadding kpr44 = pt(176);
+EdgeInsetsPadding kpr44 = pr(176);
 
 /// kp48 => padding = 192px
 EdgeInsetsPadding kp48 = p(192);
@@ -565,7 +565,7 @@ EdgeInsetsPadding kpb48 = pb(192);
 EdgeInsetsPadding kpl48 = pl(192);
 
 /// kpr48 => padding right = 192px
-EdgeInsetsPadding kpr48 = pt(192);
+EdgeInsetsPadding kpr48 = pr(192);
 
 /// kp52 => padding = 208px
 EdgeInsetsPadding kp52 = p(208);
@@ -586,7 +586,7 @@ EdgeInsetsPadding kpb52 = pb(208);
 EdgeInsetsPadding kpl52 = pl(208);
 
 /// kpr52 => padding right = 208px
-EdgeInsetsPadding kpr52 = pt(208);
+EdgeInsetsPadding kpr52 = pr(208);
 
 /// kp56 => padding = 224px
 EdgeInsetsPadding kp56 = p(224);
@@ -607,7 +607,7 @@ EdgeInsetsPadding kpb56 = pb(224);
 EdgeInsetsPadding kpl56 = pl(224);
 
 /// kpr56 => padding right = 224px
-EdgeInsetsPadding kpr56 = pt(224);
+EdgeInsetsPadding kpr56 = pr(224);
 
 /// kp60 => padding = 240px
 EdgeInsetsPadding kp60 = p(240);
@@ -628,7 +628,7 @@ EdgeInsetsPadding kpb60 = pb(240);
 EdgeInsetsPadding kpl60 = pl(240);
 
 /// kpr60 => padding right = 240px
-EdgeInsetsPadding kpr60 = pt(240);
+EdgeInsetsPadding kpr60 = pr(240);
 
 /// kp64 => padding = 256px
 EdgeInsetsPadding kp64 = p(256);
@@ -649,7 +649,7 @@ EdgeInsetsPadding kpb64 = pb(256);
 EdgeInsetsPadding kpl64 = pl(256);
 
 /// kpr64 => padding right = 256px
-EdgeInsetsPadding kpr64 = pt(256);
+EdgeInsetsPadding kpr64 = pr(256);
 
 /// kp72 => padding = 288px
 EdgeInsetsPadding kp72 = p(288);
@@ -670,7 +670,7 @@ EdgeInsetsPadding kpb72 = pb(288);
 EdgeInsetsPadding kpl72 = pl(288);
 
 /// kpr72 => padding right = 288px
-EdgeInsetsPadding kpr72 = pt(288);
+EdgeInsetsPadding kpr72 = pr(288);
 
 /// kp80 => padding = 320px
 EdgeInsetsPadding kp80 = p(320);
@@ -691,7 +691,7 @@ EdgeInsetsPadding kpb80 = pb(320);
 EdgeInsetsPadding kpl80 = pl(320);
 
 /// kpr80 => padding right = 320px
-EdgeInsetsPadding kpr80 = pt(320);
+EdgeInsetsPadding kpr80 = pr(320);
 
 /// kp96 => padding = 384px
 EdgeInsetsPadding kp96 = p(384);
@@ -712,7 +712,7 @@ EdgeInsetsPadding kpb96 = pb(384);
 EdgeInsetsPadding kpl96 = pl(384);
 
 /// kpr96 => padding right = 384px
-EdgeInsetsPadding kpr96 = pt(384);
+EdgeInsetsPadding kpr96 = pr(384);
 
 /// kpSM => padding = 8px
 EdgeInsetsPadding kpSM = p(8);
@@ -733,7 +733,7 @@ EdgeInsetsPadding kpbSM = pb(8);
 EdgeInsetsPadding kplSM = pl(8);
 
 /// kprSM => padding right = 8px
-EdgeInsetsPadding kprSM = pt(8);
+EdgeInsetsPadding kprSM = pr(8);
 
 /// kpMD => padding = 12px
 EdgeInsetsPadding kpMD = p(12);
@@ -754,7 +754,7 @@ EdgeInsetsPadding kpbMD = pb(12);
 EdgeInsetsPadding kplMD = pl(12);
 
 /// kprMD => padding right = 12px
-EdgeInsetsPadding kprMD = pt(12);
+EdgeInsetsPadding kprMD = pr(12);
 
 /// kpLG => padding = 16px
 EdgeInsetsPadding kpLG = p(16);
@@ -775,7 +775,7 @@ EdgeInsetsPadding kpbLG = pb(16);
 EdgeInsetsPadding kplLG = pl(16);
 
 /// kprLG => padding right = 16px
-EdgeInsetsPadding kprLG = pt(16);
+EdgeInsetsPadding kprLG = pr(16);
 
 /// kpXL => padding = 24px
 EdgeInsetsPadding kpXL = p(24);
@@ -796,4 +796,4 @@ EdgeInsetsPadding kpbXL = pb(24);
 EdgeInsetsPadding kplXL = pl(24);
 
 /// kprXL => padding right = 24px
-EdgeInsetsPadding kprXL = pt(24);
+EdgeInsetsPadding kprXL = pr(24);
