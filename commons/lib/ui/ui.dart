@@ -14,7 +14,7 @@ export "shadow.dart";
 export "size.dart";
 export "text.dart";
 export "text_colors.dart";
-export "text_font_families.dart";
+export "text_font_family.dart";
 export "text_font_size.dart";
 export "text_font_weight.dart";
 export "text_utils.dart";

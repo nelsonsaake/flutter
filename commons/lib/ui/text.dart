@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 export 'text_colors.dart';
-export 'text_font_families.dart';
+export 'text_font_family.dart';
 export 'text_font_size.dart';
 export 'text_utils.dart';
 
