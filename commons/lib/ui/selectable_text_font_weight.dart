@@ -19,7 +19,7 @@ extension SelectableTextFontWeightExt on SelectableText {
   SelectableText fwThin() => fw(FontWeight.w100);
 
   /// set font weight to 200
-  SelectableText fwExtralight() => fw(FontWeight.w200);
+  SelectableText fwExtraLight() => fw(FontWeight.w200);
 
   /// set font weight to 300
   SelectableText fwLight() => fw(FontWeight.w300);
@@ -31,13 +31,13 @@ extension SelectableTextFontWeightExt on SelectableText {
   SelectableText fwMedium() => fw(FontWeight.w500);
 
   /// set font weight to 600
-  SelectableText fwSemibold() => fw(FontWeight.w600);
+  SelectableText fwSemiBold() => fw(FontWeight.w600);
 
   /// set font weight to 700
   SelectableText fwBold() => fw(FontWeight.w700);
 
   /// set font weight to 800
-  SelectableText fwExtrabold() => fw(FontWeight.w800);
+  SelectableText fwExtraBold() => fw(FontWeight.w800);
 
   /// set font weight to 100
   SelectableText fw100() => fw(FontWeight.w100);

@@ -16,22 +16,22 @@ extension SelectableTextLineHeightExt on SelectableText {
   }
 
   /// set lineHeight to 1
-  SelectableText lhnone() => lh(1);
+  SelectableText lhNone() => lh(1);
 
   /// set lineHeight to 1.25
-  SelectableText lhtight() => lh(1.25);
+  SelectableText lhTight() => lh(1.25);
 
   /// set lineHeight to 1.375
-  SelectableText lhsnug() => lh(1.375);
+  SelectableText lhSnug() => lh(1.375);
 
   /// set lineHeight to 1.5
-  SelectableText lhnormal() => lh(1.5);
+  SelectableText lhNormal() => lh(1.5);
 
   /// set lineHeight to 1.625
-  SelectableText lhrelaxed() => lh(1.625);
+  SelectableText lhRelaxed() => lh(1.625);
 
   /// set lineHeight to 2
-  SelectableText lhloose() => lh(2);
+  SelectableText lhLoose() => lh(2);
 
   /// set lineHeight to 0.75
   SelectableText lh3() => lh(0.75);

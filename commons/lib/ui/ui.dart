@@ -11,6 +11,7 @@ export "padding.dart";
 export "radius.dart";
 export "rounded_rectangle_border.dart";
 export "selectable_text_colors.dart";
+export "selectable_text_font_family.dart";
 export "selectable_text_font_size.dart";
 export "selectable_text_font_weight.dart";
 export "selectable_text_letter_spacing.dart";

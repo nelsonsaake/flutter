@@ -16,21 +16,21 @@ extension SelectableTextLetterSpacingExt on SelectableText {
   }
 
   /// set letterSpacing to -0.8
-  SelectableText lstighter() => ls(-0.8);
+  SelectableText lsTighter() => ls(-0.8);
 
   /// set letterSpacing to -0.4
-  SelectableText lstight() => ls(-0.4);
+  SelectableText lsTight() => ls(-0.4);
 
   /// set letterSpacing to 0
-  SelectableText lsnormal() => ls(0);
+  SelectableText lsNormal() => ls(0);
 
   /// set letterSpacing to 0.4
-  SelectableText lswide() => ls(0.4);
+  SelectableText lsWide() => ls(0.4);
 
   /// set letterSpacing to 0.8
-  SelectableText lswider() => ls(0.8);
+  SelectableText lsWider() => ls(0.8);
 
   /// set letterSpacing to 1.6
-  SelectableText lswidest() => ls(1.6);
+  SelectableText lsWidest() => ls(1.6);
 
   }
