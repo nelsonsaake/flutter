@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^6.2.1
+  pdf: ^3.11.1
 
 dev_dependencies:
   flutter_test:
@@ -22,7 +23,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  assets:
+    - assets/fonts/
+    - assets/images/
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -29,3 +29,4 @@ export "theme/reference.dart";
 export "view.dart";
 export "widgets/widgets.dart";
 export "width_values.dart";
+export 'pdf/pdf.dart';
