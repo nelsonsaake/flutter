@@ -169,11 +169,11 @@ pw.Widget pwSectionHr() {
 // END SECTION
 
 // add page
-Future<pw.Document> addPage(
-  pw.Document pdf,
-  List<FutureOr<pw.Widget>> children,
-  FutureOr<pw.PageTheme> theme,
-) async {
+Future<pw.Document> addPage({
+  required pw.Document pdf,
+  required List<FutureOr<pw.Widget>> children,
+  required FutureOr<pw.PageTheme> theme,
+}) async {
   // ls
   List<pw.Widget> ls = await syncls(children);
 
