@@ -2,7 +2,7 @@ class FontAssets {
   static const nunito =
       "packages/commons/assets/fonts/Nunito-VariableFont_wght.ttf";
 
-  static const nunitoBold = "packages/common/assets/fonts/Nunito-Bold.ttf";
+  static const nunitoBold = "packages/commons/assets/fonts/Nunito-Bold.ttf";
 
   static const nunitoExtraBold =
       "packages/commons/assets/fonts/Nunito-ExtraBold.ttf";
