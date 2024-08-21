@@ -172,17 +172,18 @@ pw.Widget pwSectionHr() {
 Future<pw.Document> addPage(
   pw.Document pdf,
   List<FutureOr<pw.Widget>> children,
+  FutureOr<pw.PageTheme> theme,
 ) async {
   // ls
   List<pw.Widget> ls = await syncls(children);
 
   // theme
-  final theme = await pwPageTheme();
+  final pageTheme = await theme;
 
   // add page
   pdf.addPage(
     pw.Page(
-      pageTheme: theme,
+      pageTheme: pageTheme,
       build: (pw.Context context) {
         return pw.Column(
           children: ls,

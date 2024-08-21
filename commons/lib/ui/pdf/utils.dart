@@ -1,8 +1,5 @@
 import 'dart:io';
 
-import 'package:commons/assets/Images.dart';
-import 'package:commons/assets/fonts.dart';
-import 'package:commons/ui/pdf/colors.dart';
 import 'package:flutter/services.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
@@ -37,44 +34,6 @@ Future<Uint8List> pwBytes(pw.Document pdf) {
 // colors
 PdfColor pdfColor(Color c) {
   return PdfColor.fromInt(c.value);
-}
-
-// theme
-Future<pw.PageTheme> pwPageTheme() async {
-  // watermark
-  final watermark = await pwMemoryImage(ImageAssets.watermark);
-
-  // pdf fonts
-  final nunito = await pwMemoryFont(FontAssets.nunitoRegular);
-  final nunitoBold = await pwMemoryFont(FontAssets.nunitoBold);
-
-  final background = pw.Opacity(
-    opacity: .1,
-    child: pw.Container(
-      alignment: pw.Alignment.bottomRight,
-      decoration: pw.BoxDecoration(
-        color: kcPdfYellow200,
-        image: pw.DecorationImage(
-          image: watermark,
-          fit: pw.BoxFit.contain,
-        ),
-      ),
-    ),
-  );
-
-  final theme = pw.ThemeData.withFont(
-    base: nunito,
-    bold: nunitoBold,
-  );
-
-  final pageTheme = pw.PageTheme(
-    margin: const pw.EdgeInsets.all(0),
-    buildBackground: (context) => background,
-    pageFormat: PdfPageFormat.a4,
-    theme: theme,
-  );
-
-  return pageTheme;
 }
 
 const pwAlignStart = "start";
