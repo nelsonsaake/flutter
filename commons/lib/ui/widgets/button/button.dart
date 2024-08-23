@@ -40,7 +40,7 @@ class Button extends StatelessWidget {
 
     const double height = 60;
     final double width = fillWidth ? double.infinity : 150.0;
-    final borderRadius = this.borderRadius ?? 10;
+    final borderRadius = this.borderRadius ?? 32;
 
     return ElevatedButton(
       onPressed: (isBusy ? null : onTap) ?? noAction,
