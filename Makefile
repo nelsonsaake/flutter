@@ -1,6 +1,6 @@
 .PHONY: gen apk ncommit dep
 
-VERSION = 0.0.18
+VERSION = 0.0.19
 
 gen:
 	flutter pub run build_runner build --delete-conflicting-outputs
@@ -25,6 +25,7 @@ pull:
 	git pull origin main
 
 dep:
+	echo $(VERSION) > VERSION.md
 	git add .
 	git commit -m "changes for $(VERSION)"
 	git tag $(VERSION)
