@@ -1,6 +1,6 @@
 .PHONY: gen apk ncommit dep
 
-VERSION = 0.0.20
+VERSION = 0.0.21
 
 gen:
 	flutter pub run build_runner build --delete-conflicting-outputs
@@ -16,7 +16,7 @@ win:
 
 ncommit:
 	git add .
-	git commit -m "ncommit"
+	git commit -m "feat: row_with_separator"
 	git push origin main 
 
 pull:
