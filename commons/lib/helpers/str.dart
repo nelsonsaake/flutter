@@ -1,3 +1,3 @@
 String str(v) {
-  return "$v";
+  return "${v ?? ""}";
 }
