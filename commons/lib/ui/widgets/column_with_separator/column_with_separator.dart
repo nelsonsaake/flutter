@@ -35,7 +35,7 @@ class ColumnWithSeparator extends StatelessWidget {
       }
     }
 
-    return Row(
+    return Column(
       mainAxisAlignment: mainAxisAlignment,
       mainAxisSize: mainAxisSize,
       crossAxisAlignment: crossAxisAlignment,
