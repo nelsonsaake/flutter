@@ -7,6 +7,7 @@ export "font_size_values.dart";
 export "height_values.dart";
 export "icon_colors.dart";
 export "icon_utils.dart";
+export "icon_size.dart";
 export "layouts/layouts.dart";
 export "margin.dart";
 export "padding.dart";
