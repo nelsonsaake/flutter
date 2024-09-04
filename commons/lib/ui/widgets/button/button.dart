@@ -59,7 +59,7 @@ class Button extends StatelessWidget {
               children: [
                 //...
 
-                Txt(text).center().fc(textColor).fcStone100(),
+                Txt(text).center().fc(textColor),
 
                 if (icon != null) ...[
                   const Space2.y(),
