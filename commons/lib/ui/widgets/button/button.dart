@@ -53,7 +53,9 @@ class Button extends StatelessWidget {
         side: setBorder ? bs(color: commonsConfigPrimary, width: 1) : null,
       ),
       child: isBusy
-          ? const BusyIndicator()
+          ? BusyIndicator(
+            color: textColor
+          )
           : Row(
               mainAxisSize: MainAxisSize.min,
               children: [
